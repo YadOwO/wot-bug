@@ -39,6 +39,9 @@ function openUrl(url: string) {
 
 <template>
   <view class="box-border py-3">
+    <!-- 这里是演示 -->
+    <wd-picker :columns="[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" label="bug 演示" />
+
     <view class="mx-3 box-border rounded-3 bg-white px-4 py-6 text-center dark:bg-[var(--wot-dark-background2)]">
       <text class="mb-3 block text-left text-5 text-gray-800 font-bold dark:text-gray-200">
         Wot Demo
